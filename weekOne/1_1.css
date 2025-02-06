@@ -1,0 +1,70 @@
+/* تكليفات CSS الدروس من 01 إلى 04
+التكليف 01 
+
+Any Element With Class Title
+.title {
+}
+
+One Element With Id Nav
+#nav {
+}
+
+Element
+div {
+}
+
+Element
+h2 {
+}
+================================
+التكليف 05 
+Valid
+._user-name {
+}
+
+Valid
+.-user-name {
+}
+
+Not Valid
+.1user-name {
+}
+
+Not Valid
+.@user-name {
+}
+
+Not Valid
+.user@name {
+}
+
+Not Valid
+._user10name {
+}
+
+Valid
+.u {
+}
+================================
+التكليف 06 
+
+Bad
+.USERNAME {
+}
+
+Bad
+.UserName {
+}
+
+Good
+.user-name {
+}
+
+Good
+.userName {
+}
+
+Bad
+.usernameprofile {
+}  
+*/

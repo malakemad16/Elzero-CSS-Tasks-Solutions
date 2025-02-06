@@ -1,0 +1,50 @@
+/* تكليفات CSS الدروس من 09 إلى 12 */
+/* التكليف 01 */
+.shape-1,
+.shape-2,
+.shape-3 {
+  display: inline-block;
+  padding: 30px;
+  margin: 15px;
+  border-width: 5px;
+  font-size: 30px;
+}
+.shape-1 {
+  border: black solid;
+  outline: 5px red solid;
+}
+.shape-2 {
+  outline: 5px black solid;
+  border-color: blue green;
+  border-style: solid;
+}
+.shape-3 {
+  outline: 5px black solid;
+  border-color: red green blue yellow;
+  border-style: dashed;
+}
+/* ================================ */
+/* التكليف 02 */
+.element-1,
+.element-2,
+.element-3 {
+  width: 400px;
+  border-style: solid;
+  background-color: #eee;
+  padding: 30px;
+  margin: 40px;
+  font-size: 30px;
+}
+.element-1 {
+    border-color: transparent;
+    border-left: 10px solid palevioletred;
+    outline: 20px solid #eee;
+}
+.element-2 {
+  visibility: hidden;
+}
+.element-3 {
+    border-color: #eee;
+    border-left: 10px solid rgb(14, 142, 151);
+    outline: 20px solid #eee;
+}

@@ -1,0 +1,89 @@
+/* تكليفات CSS الدروس من 34 إلى 37 */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* التكليف 01 */
+div {
+  width: 300px;
+  height: 60px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #eeeeee;
+  padding: 30px;
+  font-size: 50px;
+}
+div:empty {
+  background-color: red;
+}
+/* ============== */
+/* التكليف 02 */
+.task1 {
+  width: fit-content;
+  height: inherit;
+  padding: 15px;
+  font-size: 17px;
+  position: relative;
+}
+.task1::first-letter {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  margin-left: -30px;
+}
+/* ================== */
+/* التكليف 03 */
+.Osama,
+.Ahmed,
+.Sayed {
+  width: 450px;
+  margin: 20px auto;
+  background-color: #eeeeee;
+  padding: 15px;
+  border-left: 4px solid palevioletred;
+  position: relative;
+}
+.Osama::before,
+.Ahmed::before,
+.Sayed::before {
+  content: attr(data-person);
+  background-color: #eeeeee;
+  color: black !important;
+  text-align: center;
+  margin: 20px 10px;
+  padding: 10px;
+  position: absolute;
+  left: -106px;
+  bottom: -16px;
+}
+.Osama::after,
+.Ahmed::after,
+.Sayed::after {
+  content: "";
+  border: 12px solid;
+  border-color: transparent;
+  border-right-color: palevioletred;
+  position: absolute;
+  left: -25px;
+  bottom: 12px;
+}
+/* ================== */
+/* التكليف 04 */
+p {
+  background-color: #eeeeeeee;
+  width: 350px;
+  margin: 20px auto;
+  padding: 20px;
+  counter-increment: count;
+  position: relative;
+  border-right: 3px solid palevioletred;
+}
+p::before {
+  content: counter(count);
+  background-color: palevioletred;
+  padding: 20px;
+  position: absolute;
+  left: -40px;
+  bottom: 0;
+  color: white;
+}

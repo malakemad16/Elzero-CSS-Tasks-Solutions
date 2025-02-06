@@ -1,0 +1,56 @@
+/* تكليفات CSS الدروس من 27 إلى 29 */
+
+/* التكليف 01 */
+.parent {
+    width: 800px;
+    padding: 0px;
+    background-color: #EEE;
+}
+.parent .one,
+.two div,
+.three div,
+.four div {
+    float: left;
+    text-align: center;
+    background-color: #DDDDDD;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.parent .one {
+    width: calc(100% - (15px * 2));
+}
+.two div {
+    width: calc((100% - (15px * 4))/3);
+}
+.three div {
+    width: calc((100% - (15px * 3))/2);
+}
+.four div {
+    width: calc((100% - (15px * 5))/4);
+}
+.clear {
+    clear: both;
+}
+/* =================== */
+/* التكليف 02 */
+.class div {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    color: black;
+}
+.normal {
+    background-color: hsl(0, 1%, 47%); 
+}
+.one1 {
+    background-color: hsl(0, 0%, 93%, 0.8);
+}
+.two2 {
+    background-color: hsl(0, 1%, 47%); 
+    opacity: 0.2;
+}

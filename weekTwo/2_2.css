@@ -1,0 +1,50 @@
+/* تكليفات CSS الدروس من 17 إلى 21 */
+body {
+    text-align: center;
+}
+
+/* التكليف 01 */
+.el-zero {
+  text-transform: capitalize;
+  text-shadow: 1px 1px orangered, 2px 2px rgb(0, 132, 255), 3px 3px plum;
+  font-size: 50px;
+}
+/* ================= */
+/* التكليف 02 */
+.one,
+.two,
+.three {
+  font-size: 30px;
+}
+.one {
+  text-transform: uppercase;
+}
+.two {
+  text-transform: capitalize;
+}
+.three {
+  text-transform: lowercase;
+}
+/* ================= */
+/* التكليف 03 */
+div {
+  background-color: #eee;
+  width: 400px;
+  margin: 10px;
+  padding: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/* ================= */
+/* التكليف 04 */
+a {
+  display: inline-block;
+  padding: 50px;
+  color: white;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 30px;
+  background-color: teal;
+  border-bottom: 10px solid rgb(2, 93, 93);
+}

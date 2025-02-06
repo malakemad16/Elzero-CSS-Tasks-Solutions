@@ -1,0 +1,140 @@
+/* تكليفات CSS الدروس من 38 إلى 41 */
+
+/* التكليف 01 */
+.element-1,
+.element-2,
+.element-3 {
+  width: 100px;
+  height: 100px;
+  background-color: #eeeeeeee;
+  margin: 20px 100px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 3px solid black;
+  float: left;
+  counter-increment: count-circle;
+  box-shadow: -10px -5px 0 0 palevioletred, 10px 5px 0 0 rgb(0, 119, 255);
+  position: relative;
+}
+.element-1::before,
+.element-2::before,
+.element-3::before {
+  content: counter(count-circle);
+  background-color: black;
+  color: white;
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  top: -15px;
+  left: 35px;
+}
+.element-1::after,
+.element-2::after,
+.element-3::after {
+  content: "Element";
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  top: 35px;
+  left: 17px;
+}
+/* ======================== */
+/* التكليف 02 */
+.hr1,
+.One {
+  width: 100%;
+  position: relative;
+  top: 100px;
+}
+.One {
+  width: 100px;
+  height: 100px;
+  background-color: #eeeeeeee;
+  margin: 20px auto;
+  border-top-left-radius: 5px 25px;
+  border-bottom-right-radius: 5px 25px;
+  border-top-right-radius: 50px 50px;
+  border-bottom-left-radius: 50px 50px;
+  box-shadow: 5px 5px 10px #7f7f7f inset, -5px -5px 10px #7f7f7f inset;
+}
+/* ======================== */
+/* التكليف 03 */
+
+.hr2,
+.parent {
+  position: relative;
+  top: 100px;
+}
+.parent {
+  width: 550px;
+  margin: auto;
+}
+.parent div {
+  display: inline-block;
+  margin: 20px;
+  background-color: #eeeeee;
+  width: 120px;
+  height: 200px;
+  padding: 30px;
+}
+.parent div span {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 7px;
+  margin: -10px;
+}
+.parent .basic span {
+  padding: 8px 50px;
+}
+.parent .pro {
+  position: relative;
+}
+.parent .pro span {
+  padding: 8px 60px;
+}
+.parent div p {
+  font-size: 30px;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #dddddd;
+  line-height: 5;
+  margin-top: 30px;
+  margin-left: -15px;
+}
+.parent .pro::before {
+  content: "";
+  position: absolute;
+  width: 1.5px;
+  height: 100%;
+  background-color: #2196f3;
+  top: 0;
+  left: -24px;
+}
+.parent .pro::after {
+  content: "or";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #2196f3;
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.5;
+  top: 50%;
+  left: -32px;
+}

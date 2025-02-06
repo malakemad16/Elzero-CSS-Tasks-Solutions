@@ -1,0 +1,33 @@
+/* تكليفات CSS الدروس من 13 إلى 16 */
+
+/*التكليف 01 */
+.parent .child .title {
+    color: red;
+}
+.parent span {
+    color: blue;
+}
+p,
+.title {
+    color: green;
+}
+/* ================== */
+/*التكليف 02 */
+.one,
+.two,
+.three,
+.four {
+    max-width: 400px;
+    max-height: 40px;
+    width: fit-content;
+    background-color: rgb(146, 7, 7);
+    color: aliceblue;
+    padding: 20px;
+    margin: 10px;
+}
+.four {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}

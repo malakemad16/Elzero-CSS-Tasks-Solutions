@@ -1,0 +1,163 @@
+/* تكليفات CSS الدروس من 30 إلى 33 */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* التكليف 01 */
+.green,
+.red,
+.blue,
+.black {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin: 20px;
+}
+.red {
+  background-color: rgb(233 115 115);
+  z-index: 4;
+  top: 40px;
+  left: 40px;
+}
+.blue {
+  background-color: #04adad;
+  z-index: 2;
+  top: 20px;
+  left: 20px;
+}
+.green {
+  top: 30px;
+  left: 30px;
+  background-color: #009688;
+  z-index: 3;
+}
+.black {
+  background-color: rgb(34, 31, 31);
+  z-index: -1;
+  top: 30px;
+  left: 20px;
+}
+/* ====================== */
+/* التكليف 02 */
+.hr1,
+.text {
+  position: relative;
+  margin-top: 200px;
+}
+.text {
+  width: 400px;
+  margin: 50px auto;
+  padding: 10px;
+  background-color: #eee;
+  text-align: center;
+  line-height: 1.6;
+  border: 3px solid;
+  border-color: rgb(233 115 115) #04adad;
+  position: relative;
+}
+.top-left,
+.top-right,
+.bottom-left,
+.bottom-right {
+  position: absolute;
+  text-align: center;
+  padding: 3px 10px;
+  color: white;
+  background-color: #04adad;
+  border: 2px solid;
+}
+.top-left {
+  top: -15px;
+  left: -20px;
+  border-color: transparent;
+  border-right-color: rgb(233 115 115);
+}
+.top-right {
+  right: -15px;
+  top: -15px;
+  border-color: transparent;
+  border-left-color: rgb(233 115 115);
+}
+.bottom-left {
+  bottom: -15px;
+  left: -15px;
+  border-color: transparent;
+  border-right-color: rgb(233 115 115);
+}
+.bottom-right {
+  bottom: -15px;
+  right: -15px;
+  border-color: transparent;
+  border-left-color: rgb(233 115 115);
+}
+/* ====================== */
+/* التكليف 03 */
+ul.main {
+  width: 400px;
+  margin: 30px auto;
+  line-height: 1.6;
+  list-style: none;
+}
+ul.main li {
+  background-color: #eee;
+  margin: 10px;
+  padding: 10px;
+}
+ul.main li ol li {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-left: 0;
+}
+.js ul li {
+  background-color: #ffffff;
+  list-style: circle;
+  list-style-position: inside;
+  margin-left: -30px;
+}
+/* ====================== */
+/* التكليف 04 */
+table {
+  margin: 70px auto;
+  max-width: 700px;
+  font-size: 20px;
+  border: 2px solid #ffffff;
+}
+table caption {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+table thead th {
+  color: #ffffff;
+  background-color: #404040;
+  padding: 20px;
+}
+table tbody {
+  background-color: #eeeeee;
+  text-align: center;
+}
+table tbody td {
+  padding: 10px 10px;
+}
+table tbody img {
+  width: 60px;
+  height: 70px;
+  border: 4px solid #ffffff;
+}
+td button {
+  font-weight: bold;
+  margin: 2px;
+  padding: 5px 10px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+table .one {
+  background-color: #03a9f4;
+}
+table .two {
+  background-color: #e91e63;
+}
+table tfoot tr td {
+  border-bottom: 3px solid #009688;
+  padding: 0;
+}
